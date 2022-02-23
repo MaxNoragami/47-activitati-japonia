@@ -1,0 +1,242 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+}
+
+svg path {
+  fill: #00394f;
+  stroke: #eee;
+  stroke-width: 0.25;
+}
+
+svg path:hover {
+  fill: #dd6284;
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.text{
+  text-align: center;
+}
+
+.maincontainer {
+  width: 800px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+/* Template */
+.bgc {
+  background-color: white;
+  padding-top: 70px;
+  background-image: url('img/sakuri.jpg');
+}
+
+.bgc2 {
+  background-color: white;
+  padding-top: 10px;
+  background-image: url('img/sakuri.jpg');
+}
+.bgc3 {
+  background-color: white;
+  padding-top: 0px;
+  background-image: url('img/sakuri.jpg');
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.headline {
+  text-align: center;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.headline::after {
+  content: "";
+  position: absolute;
+  width: 90px;
+  height: 2px;
+  background-color: red;
+  left: 46%;
+  transform: translateY(-50%);
+  bottom: -5px;
+}
+
+.location-pic {
+  height: 400px;
+  background-color: black;
+  background-image: url("img/sample-1.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 20px;
+}
+
+.info {
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.fact-1,
+.fact-2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.fact-1 h3,
+.fact-2 h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.fact-1 p,
+.fact-2 p {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+
+.tematic-pic {
+  background-image: url("img/sample-1.jpg");
+  height: 320px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: 820px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+/* LOCATIONS */
+
+.location-pic.hokaido {
+  background-image: url("img/hokaido.png");
+}
+
+.tematic-pic.hokaido-1 {
+  background-image: url("img/hokaido-1.png");
+}
+
+.tematic-pic.hokaido-1 {
+  background-image: url("img/hokaido-2.png");
+}
+
+.home {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 10px 25px 10px 57px;
+  background-image: url("img/Arrow.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 50px;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+.main-title {
+  margin: 0 auto;
+  width: 300px;
+}
+
+.main-title-img {
+  max-width: 100%;
+}
+
+
+
+
+a:visited { 
+  text-decoration: none; 
+  color: black; 
+ }
+
+ a:hover { text-decoration: none; color:black; }
+a:focus { text-decoration: none; color:black; }
+a:active { text-decoration: none; color:black; }
+
+p {
+  background-color: rgba(235, 230, 226, 1);
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(49, 48, 48);
+  color: white;
+  max-width: 100%;
+  
+}
+
+footer p {
+  background-color: #2E312F;
+  border-color: transparent;
+}
+
+.myNav {
+  display: block;
+  height: 50px;
+  padding: 0;
+  background-color: #2E312F;
+}
+/* Remove bullets, margin and padding */
+.myNav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.myNav li {
+  float: left;
+  /* Or you can use display: inline; */
+}
+/* Define the block styling for the links */
+.myNav li a {
+  display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
+}
+/* This is optional, however if you want to display the active link differently apply a background to it */
+.myNav li a.active {
+  background-color: #3786E1;
+}
+
+.home2 {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 10px 25px 10px 57px;
+  background-image: url("img/car.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 50px;
+  text-decoration: none;
+  font-size: 19px;
+  color: #2E312F;
+}
+
